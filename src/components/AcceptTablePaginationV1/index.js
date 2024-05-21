@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
-//import Pagination from "./components/pagination";
+import Pagination from "./components/pagination";
 import useSortedColumns from "./hooks/useSortedCols";
 import useFilteredRows from "./hooks/useFilteredRows";
 import Header from "./components/header";
 import TableBody from "./components/table/body";
 import "./style.css";
-//import "./styles/pagination.css";
+import "./styles/pagination.css";
 import "./styles/table.css";
 
 const AcceptTablePaginationV1 = (props) => {
@@ -71,12 +71,12 @@ const AcceptTablePaginationV1 = (props) => {
           sort={sort}
           onChangeSort={onChangeSort}
         />
-        {/* <Pagination
+        <Pagination
           currentPage={currentPage}
           onChangePage={setCurrentPage}
           rowsPerPage={pageSize}
           data={filteredRows}
-        /> */}
+        />
       </div>
     </div>
   );
