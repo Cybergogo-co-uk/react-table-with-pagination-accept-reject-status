@@ -1,0 +1,45 @@
+/* Pagination Styles */
+.pagination-container {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+    padding: 10px 30px 10px 10px;
+    background-color: #f9fafc;
+    border-top: 1px solid #e5e5e6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.pagination-info {
+    margin-right: auto;
+    /* Ensures info is aligned to the left */
+    font-size: 14px;
+}
+
+.pagination-next-prev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.25rem
+}
+
+.pagination-button {
+    background: transparent;
+    padding: 0.25rem;
+    border: 0
+}
+
+.pagination-button svg {
+    font-size: 20px;
+}
+
+.pagination-infos {
+    font-size: 14px;
+}
+
+.pagination-current-page {
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "accepttablepaginationv1",
+  "description": "Table with accept-reject status and pagination",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Konstantinos Pap",
+  "scripts": {
+    "start": "adalo dev",
+    "dev": "react-scripts start",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.60",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.8.4",
+    "@storybook/addon-actions": "^4.0.2",
+    "@storybook/addon-links": "^4.0.2",
+    "@storybook/addons": "^4.0.2",
+    "@storybook/react": "^4.0.2",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "regenerator-runtime": "^0.12.1",
+    "style-loader": "^0.23.1"
+  },
+  "dependencies": {
+    "@protonapp/react-native-material-ui": "^2.0.7",
+    "@uidotdev/usehooks": "^2.4.1",
+    "react-indiana-drag-scroll": "^2.2.0",
+    "react-select": "^5.8.0",
+    "react-tooltip": "^5.26.3",
+    "reactjs-popup": "^2.0.6",
+    "react-native-vector-icons": "^9.1.0"
+  }
+}

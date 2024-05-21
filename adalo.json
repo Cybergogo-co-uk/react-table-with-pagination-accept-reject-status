@@ -1,0 +1,15 @@
+{
+  "displayName": "Accept Table PaginationV1",
+  "version": "1.0.0",
+  "author": "Konstantinos Pap",
+  "description": "Table with Pagination AcceptV1",
+  "logo": "./logo.png",
+  "demoAppURL": "https://previewer.adalo.com/cc390d0b-3a87-422d-87fe-edc8708307dd?sessionToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjM2NjgxMywiZW1haWwiOiJjeWJlcmdvZ29hcHBzQGdtYWlsLmNvbSIsImRldmVsb3BlciI6dHJ1ZSwiaWF0IjoxNzE2Mjg5NDkwLCJleHAiOjE3MTg4ODE0OTB9.LUhhu7mT6gTj0cQN0Z8H-GtGxkcOfZawtmFoLQW6VwrRe9EKE7qT6GoY9eimh_-6NBxqsv9t2Xtc21WerUzDc_PXnmetzAsFfBee3fc_dPqIRd-yKFbIzeRcCP8cRLAKtZ4yl7p5eZZ4C83uJaiQkSU_HvGqOo8N93lW4vjucH1kuR9ytfxdcqk9HQ2lIug8Y0tn06yfPLcttFGq20cVvoRkVKhAGmu1Tg-0D12A3gaPCowigRtNSSYp58ieHQfzTQjO4iTJetIKgYre2wYOgAM3Qf93IXP2LWMPzN1HqnnLkM4BzmxA_Yb2mVucFVSS33BbXw7HldAlDNpWzK-bvg&_gl=1*1t485tu*_ga*MTcxMzgyMTEzNi4xNzEzNTM2NTI3*_ga_SWT45DV35L*MTcxNjI4ODA1NC40NC4xLjE3MTYyODk2ODEuNTYuMC4w",
+  "supportURL": "https://cybergogo.co.uk",
+  "components": [
+    {
+      "name": "AcceptTablePaginationV1",
+      "manifest": "./src/components/AcceptTablePaginationV1/manifest.json"
+    }
+  ]
+}
